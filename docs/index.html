@@ -1,17 +1,119 @@
-<html>
-  <head>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
   <title>Alfredo Cea</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Dosis:400,500,600,700" rel="stylesheet" type="text/css">
+  <!-- Font Awesome icons 4.2.1 -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Toggle button -->
+  <link rel="stylesheet" href="css/button.css"> <!-- custom style -->
+  <!-- Custom code -->
+  <link rel="stylesheet" href="css/framework.css"> <!-- 12 grid framework -->
+  <link rel="stylesheet" href="css/style.css"> <!-- custom style -->
 </head>
-
 <body>
-  <center>
-    <h1>Alfredo Cea</h1>
-  <img src="home.png" width="60%">
-  <br>
-    1934-2016
-  </center>
-  
-</body>
 
+  <header class="col-12">
+    <h1 class="textShadow inlineBlock">Alfredo Cea Egaña</h1>
+    <div></div>
+    <span class="textShadow inlineBlock">9.9.1934 Santiago, Chile - 13.5.2016 Coquimbo, Chile</span>
+    <figure><img src="img/home.png" alt="Alfredo"></figure>
+    <ul class="inlineList">
+      <li><a href="https://twitter.com/proyectoalfredo" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+
+    <div class="switchWrap col-12">
+      <h4>Switch to see another side of me!</h4>
+      <div class="col-5 col-tab-5 col-ph-4 onlineSwitch">
+        <p>Online</p>
+      </div>
+      <div class="switch col-2 col-tab-2 col-ph-4">
+        <input id="toggleTop" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+        <label for="toggleTop"></label>
+      </div>
+      <div class="col-5 col-tab-5 col-ph-4 offlineSwitch">
+        <p>Offline</p>
+      </div>
+    </div>
+
+    <div class="col-12 row longLink">
+      <div class="col-6 col-tab-11 col-ph-11 top online">
+        <div class="topLine"></div>
+        <h2>Personal</h2>
+      </div>
+      <div class="col-6 col-tab-11 col-ph-11 top offline">
+        <div class="topLine"></div>
+        <h2>Profesional</h2>
+      </div>
+    </div>
+  </header>
+
+  <section role="main" id="timeline" class="row col-tab-11 col-ph-11">
+
+    <ul class="col-12"> <!-- Timeline Listing -->
+
+      <!-- all projects go here -->
+
+<li class="group item offline" style="display: list-item;"> <!-- Event --> <section class="col-6 col-tab-12 col-ph-12 row event"> <div class="col-1 col-sm-2 col-ph-2 date"> <p>1960</p> </div> <div class="col-11 col-sm-10 col-ph-10 eventText"> <h4 class="inlineBlock"><i class="fa fa-star"></i> Se recibe de médico</h4> </div> </section> </li>
+
+<li class="group item online" style="display: list-item;"> <!-- Project --> <section class="col-6 col-tab-12 col-ph-12 row project "> <div class="col-1 col-sm-2 col-ph-2 date"> <p>1934</p> </div> <figure class="col-7 col-sm-9 col-ph-9 thumb"> <img src="img/alfredoniño.jpg" alt="Playa" width="80" height="92"> <figcaption> <h4>Datos:</h4> <p>Probablemente en las cruces.</p>  <ul></ul> </figcaption> </figure> <div class="col-4 col-sm-9 col-ph-9 info"> <h3>Veranos en la playa</h3> <ul class="extlinks inlineList"></ul> <ul class="skills"><li><span>Las Cruces</span></li></ul> </div> </section> </li>
+
+<li class="group item online" style="display: list-item;"> <!-- Event --> <section class="col-6 col-tab-12 col-ph-12 row event"> <div class="col-1 col-sm-2 col-ph-2 date"> <p>1934</p> </div> <div class="col-11 col-sm-10 col-ph-10 eventText"> <h4 class="inlineBlock"><i class="fa fa-star"></i> Nace en Santiago de Chile el 9 de Septiembre de 1934</h4> </div> </section> </li>
+
+    </ul> <!-- timeline listing -->
+  </section> <!-- timeline -->
+
+  <footer class="col-12">
+    <div class="col-12 row longLink">
+      <div class="col-6 col-tab-11 col-ph-11 top online">
+        <div class="topLine"></div>
+      </div>
+      <div class="col-6 col-tab-11 col-ph-11 top offline">
+        <div class="topLine"></div>
+      </div>
+    </div>
+
+    <i class="fa fa-certificate"></i>
+    <i class="fa fa-bolt"></i>
+    <div class="ribbon">
+      <p class="ribbon-content">* 1934 *</p>
+    </div>
+
+    <div class="switchWrap col-12">
+      <h4>Switch to see another side of me:</h4>
+      <div class="col-5 col-tab-5 col-ph-4 onlineSwitch">
+        <p>Online</p>
+      </div>
+      <div class="switch col-2 col-tab-2 col-ph-4">
+        <input id="toggleBottom" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+        <label for="toggleBottom"></label>
+      </div>
+      <div class="col-5 col-tab-5 col-ph-4 offlineSwitch">
+        <p>Offline</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Google Analitycs -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7WDRG8Q7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H7WDRG8Q7Q');
+</script> <!-- end of Google Analitycs -->
+
+  <!-- Non-blocking JS -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/script.js"></script>  <!-- custom JS -->
+
+</body>
 </html>
