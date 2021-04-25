@@ -5,7 +5,7 @@ body {
   font-weight: 700;
   font-family: "Dosis", serif;
   color: #fff;
-  background-color: #FCE29A;
+  background-color: #154382;
 }
 
 a { text-decoration: none; }
@@ -78,8 +78,8 @@ address {
 
 /* |||||||||||||||||||||||    Timeline    ||||||||||||||||||||||||| */
 
-.online a.hyperlink { border-bottom: 1px dotted #EF596F; }
-.offline a.hyperlink { border-bottom: 1px dotted #2EC7CE; }
+.online a.hyperlink { border-bottom: 1px dotted #4F8ACD; }
+.offline a.hyperlink { border-bottom: 1px dotted #326AAA; }
 
 .top {
   position: relative;
@@ -90,18 +90,18 @@ address {
   border-radius: 8px;
   position: relative;
   top: 22px;
-  background-color: #FCE29A;
+  background-color: #fff;
 }
 
 .top.online h2 {
-  color: #EF596F;
-  border-left: 3px solid #EF596F;
-  border-right: 3px solid #EF596F;
+  color: #4F8ACD;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
 }
 .top.offline h2 {
-  color: #2EC7CE;
-  border-left: 3px solid #2EC7CE;
-  border-right: 3px solid #2EC7CE;
+  color: #326AAA;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
 }
 
 .topLine {
@@ -110,11 +110,11 @@ address {
   bottom: -2px;
 }
 .online .topLine{
-  border-bottom: 2px dotted #EF596F;
+  border-bottom: 2px dotted #fff;
   right: 0;
 }
 .offline .topLine{
-  border-bottom: 2px dotted #2EC7CE;
+  border-bottom: 2px dotted #fff;
   left: 0;
 }
 
@@ -141,11 +141,11 @@ address {
 
 #timeline::before {
   margin-left: -7px;
-  background: #EF596F;
+  background: #4F8ACD;
 }
 #timeline::after {
   margin-left: 0;
-  background: #2EC7CE;
+  background: #326AAA;
 }
 
 /* ||||||   Common Rules   |||||| */
@@ -156,13 +156,13 @@ address {
 .online .thumb {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  border-right: 3px solid #EF596F;
+  border-right: 3px solid #fff;
 }
 .offline .eventText > h4,
 .offline .thumb {
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  border-left: 3px solid #2EC7CE;
+  border-left: 3px solid #fff;
 }
 
 .online .project .info,
